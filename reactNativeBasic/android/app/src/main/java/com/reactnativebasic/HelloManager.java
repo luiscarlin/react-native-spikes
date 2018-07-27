@@ -1,6 +1,5 @@
 package com.reactnativebasic;
 
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -19,7 +18,7 @@ public class HelloManager extends ReactContextBaseJavaModule {
     }
 
     // this method will be exposed in react native to be used in JS
-    // it takes a callback
+    // it can take a callback or resolve a promise
     @ReactMethod
     public void greetUser(String name, Promise promise) {
         System.out.println("User name: " + name);
