@@ -1,2 +1,3 @@
-# react-native-spike
+# react-native-spikes
+
 A bunch of spikes
