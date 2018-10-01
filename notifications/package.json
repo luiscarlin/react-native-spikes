@@ -5,9 +5,12 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "android": "run-android"
+    "android": "react-native run-android"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/runtime": "^7.1.2",
+    "babel-core": "^7.0.0-0",
     "react": "16.5.0",
     "react-native": "0.57.1"
   },
